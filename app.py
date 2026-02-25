@@ -28,7 +28,7 @@ async def calculate(num1: int, num2: int):
     return {"result": result}
 
 
-user_instance = User(name="Никита Грачев", id=1)
+user_instance = User(name="Николай Грачев", id=1)
 
 @app.get("/users")
 async def get_user():
