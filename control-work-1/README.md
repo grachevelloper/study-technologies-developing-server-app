@@ -6,8 +6,7 @@
 ## Запуск проекта
 
 ```bash
-# Установка зависимостей
 pip install -r requirements.txt
 
-# Запуск приложения (основное)
 uvicorn app:app --reload
+```
